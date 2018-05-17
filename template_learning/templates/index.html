@@ -1,0 +1,14 @@
+
+<!DOCTYPE html>
+  {% extends "base.html" %}
+  {% load my_extras %}
+  {% load static %}
+  {% block css %}{{block.super}}
+  
+  {% endblock %}
+  {% block body_block %}
+    <h1>This is index</h1>
+    <h2>This an example of template inheritance</h2>
+    <h1>{{ text|custom:'Hello' }}</h1>
+    <h1>{{ Age| add:"99" }}</h1>
+  {% endblock %}
