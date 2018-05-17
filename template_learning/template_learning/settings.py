@@ -25,9 +25,7 @@ SECRET_KEY = '%(s9_f!a+z!2dn6pp0y52_vh_j$-7q^2(kdfvtr-xw1q)euh7o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    'zahidemon.pythonanywhere.com','localhost', '127.0.0.1'
-]
+ALLOWED_HOSTS = ['zahidemon.pythonanywhere.com','localhost', '127.0.0.1']
 
 
 # Application definition
